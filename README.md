@@ -1,12 +1,15 @@
-## Welcome to GitHub Pages
+## Minimap
 
-You can use the [editor on GitHub](https://github.com/OscarHernandezG/MinimapTestbed/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Research about how to implement a minimap in your game
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Minimap
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+“I am <https://www.linkedin.com/in/oscar-hernandez-73b224161/>(Óscar Hernández), student of the
+<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in
+Video Games by UPC at CITM). This content is generated for the second year’s
+subject Project 2, under supervision of lecturer
+<https://es.linkedin.com/in/ricardpillosu>(Ricard Pillosu).”
 
 ```markdown
 Syntax highlighted code block
