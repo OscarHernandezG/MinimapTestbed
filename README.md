@@ -1,30 +1,16 @@
-## Minimap
+# Minimap
 
 Research about how to implement a minimap in your game
 
 
-### Minimap
-
 “I am [Óscar Hernández](https://www.linkedin.com/in/oscar-hernandez-73b224161), student of the
-<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in
-Video Games by UPC at CITM). This content is generated for the second year’s
-subject Project 2, under supervision of lecturer
+[Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs).
+This content is generated for the second year’s subject Project 2, under supervision of lecturer
 [Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
 
-```markdown
-Syntax highlighted code block
+### What is a minimap
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+A minimap is a miniature map that is usually placed at a corner of the screen to help players orient thmselves and manage to control what's happening outside his field of view. In a minimap the common features are the entities position (maybe only player entities or player and enemy entities) and objectives nearby as well as the sorrounding topography.
 
 [Link](url) and ![Image](src)
 ```
