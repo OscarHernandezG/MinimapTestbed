@@ -5,11 +5,11 @@ Research about how to implement a minimap in your game
 
 ### Minimap
 
-“I am <https://www.linkedin.com/in/oscar-hernandez-73b224161/>(Óscar Hernández), student of the
+“I am [Óscar Hernández](https://www.linkedin.com/in/oscar-hernandez-73b224161), student of the
 <https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in
 Video Games by UPC at CITM). This content is generated for the second year’s
 subject Project 2, under supervision of lecturer
-<https://es.linkedin.com/in/ricardpillosu>(Ricard Pillosu).”
+[Ricard Pillosu](https://es.linkedin.com/in/ricardpillosu).”
 
 ```markdown
 Syntax highlighted code block
