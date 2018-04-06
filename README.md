@@ -93,12 +93,12 @@ And the game should look like this
 ![Todo 5 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo5_done.png)
 
 ### Extra Todo
-- Implement a Fow of War system to make the minimap more interesting
+- Implement a Fog of War system to make the minimap more interesting
 
 ## Future
 As said in [this](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897) article, minimaps might be going to disapear. In many recent videogames the minimap is gone, and it dosen't feel like is missing.
 
 
 ## References
-[Minimaps](https://en.wikipedia.org/wiki/Mini-map)
+[Minimaps](https://en.wikipedia.org/wiki/Mini-map)</br>
 [Minimaps might be going away](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897)
