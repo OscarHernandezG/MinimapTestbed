@@ -15,6 +15,7 @@ A minimap is a miniature map that is usually placed at a corner of the screen to
 ## How to implement a minimap
 
 I have prepared a HandOut so you can follow step by step and learn how to implement a minimap for your videogame.
+
 You can download the HandOut [here](https://github.com/OscarHernandezG/MinimapTestbed/archive/HandOut.zip)
 
 ### Todo 1
@@ -63,6 +64,8 @@ Your code after this todo should look like this
 
 ### Todo 3
 - Draw the map
+
+
 Use your game blit function, you have to use the texture created in the Todo 2
 
 
@@ -74,6 +77,8 @@ And the game should look like this
 
 ### Todo 4
 - Draw all entities in the minimap
+
+
 The minimap has a list of pointers to entity, all the entities that you want to be showed in the minimap has to be added to this list
 To draw the entities we blit quads, so we don´t have to load more textures 
 
@@ -85,6 +90,8 @@ And the game should look like this
 
 ### Todo 5
 - Draw the camera rect
+
+
 The player will want to know were he is, to accomplish this we draw another quad in the camera position and with the camera size, but we don´t fill the rect. If we fill the rect the player won´t be able to see the minimap!
 
 Your code after this todo should look like this 
