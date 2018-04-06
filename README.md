@@ -27,38 +27,39 @@ int entityWidth
 int entityHeight
 ```
 Your code after this todo should look like this 
-![Todo 1](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo1.png)
+![Todo 1](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo1.png)
+
 ### Todo 2
 
-- Save map into a texture </br>
+- Save map into a texture 
 
 - 2.1 Compute the scale factor for the Minimap.</br>
 ```
 scaleFactor = minimapSiz / emapSize
 ```
-- 2.2 Create a RGB surface</br>
+- 2.2 Create a RGB surface
 Use:
 ```
 SDL_CreateRGBSurface()
 ```
 The size of the surface is the size of the minimap
 
-- 2.3 Create a renderer using the surface</br>
+- 2.3 Create a renderer using the surface
 ```
 SDL_CreateSoftwareRenderer()
 ```
-- 2.4 Read the renderer pixels </br>
+- 2.4 Read the renderer pixels 
 Use:
 ```
 SDL_RenderReadPixels()
 ```
-- 2.5 Create a texture from the surface </br>
+- 2.5 Create a texture from the surface 
 Use
 ```
 SDL_CreateTextureFromSurface()
 ```
 Your code after this todo should look like this 
-![Todo 2](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo2.png)
+![Todo 2](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo2.png)
 
 ### Todo 3
 - Draw the map
@@ -66,10 +67,10 @@ Use your game blit function, you have to use the texture created in the Todo 2
 
 
 Your code after this todo should look like this 
-![Todo 3](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo3.png)
+![Todo 3](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo3.png)
 
 And the game should look like this
-![Todo 3 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo3_done.png)
+![Todo 3 done](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo3_done.png)
 
 ### Todo 4
 - Draw all entities in the minimap
@@ -77,20 +78,20 @@ The minimap has a list of pointers to entity, all the entities that you want to 
 To draw the entities we blit quads, so we don´t have to load more textures 
 
 Your code after this todo should look like this 
-![Todo 4](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo4.png)
+![Todo 4](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo4.png)
 
 And the game should look like this
-![Todo 4 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo4_done.png)
+![Todo 4 done](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo4_done.png)
 
 ### Todo 5
 - Draw the camera rect
 The player will want to know were he is, to accomplish this we draw another quad in the camera position and with the camera size, but we don´t fill the rect. If we fill the rect the player won´t be able to see the minimap!
 
 Your code after this todo should look like this 
-![Todo 5](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo5.png)
+![Todo 5](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo5.png)
 
 And the game should look like this
-![Todo 5 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo5_done.png)
+![Todo 5 done](https://raw.githubusercontent.com/OscarHernandezG/MinimapTestbed/master/docs/images/todo5_done.png)
 
 ### Extra Todo
 - Implement a Fog of War system to make the minimap more interesting
@@ -100,5 +101,6 @@ As said in [this](https://kotaku.com/video-game-mini-maps-might-finally-be-going
 
 
 ## References
-[Minimaps](https://en.wikipedia.org/wiki/Mini-map)</br>
+[Minimaps](https://en.wikipedia.org/wiki/Mini-map)
+
 [Minimaps might be going away](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897)
