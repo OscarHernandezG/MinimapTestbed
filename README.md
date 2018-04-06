@@ -34,7 +34,7 @@ Your code after this todo should look like this
 
 - 2.1 Compute the scale factor for the Minimap.</br>
 ```
-     scaleFactor = minimapSiz / emapSize
+scaleFactor = minimapSiz / emapSize
 ```
 - 2.2 Create a RGB surface</br>
 Use:
