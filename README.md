@@ -10,7 +10,9 @@ This content is generated for the second year’s subject Project 2, under super
 
 ## What is a minimap
 
-A minimap is a miniature map that is usually placed at a corner of the screen to help players orient thmselves and manage to control what's happening outside his field of view. In a minimap the common features are the entities position (maybe only player entities or player and enemy entities) and objectives nearby as well as the sorrounding topography.
+A minimap is a miniature map that is usually placed at a corner of the screen to help players orient thmselves and manage to control what's happening outside his field of view.
+
+In a minimap the common features are the entities position (maybe only player entities or player and enemy entities) and objectives nearby as well as the sorrounding topography.
 
 ## How to implement a minimap
 
