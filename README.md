@@ -113,3 +113,5 @@ As said in [this](https://kotaku.com/video-game-mini-maps-might-finally-be-going
 [Minimaps](https://en.wikipedia.org/wiki/Mini-map)
 
 [Minimaps might be going away](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897)
+
+[Minimap testbed web](https://oscarhernandezg.github.io/MinimapTestbed/)
