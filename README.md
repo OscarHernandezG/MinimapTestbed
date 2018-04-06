@@ -20,29 +20,85 @@ You can download the HandOut [here](https://github.com/OscarHernandezG/MinimapTe
 ### Todo 1
 Set minimap info
 
+The variables to set are 
+```
+SDL_Rect minimapInfo 
+int entityWidth	
+int entityHeight
+```
+Your code after this todo should look like this 
+![Todo 1](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo1.png)
 ### Todo 2
-Save map into a texture 
-2.1 Compute the scale factor for the Minimap.
-2.2 Create a RGB surface
-2.3 Create a renderer using the surface
-2.4 Read the renderer pixels 
-2.5 Create a texture from the surface 
+
+- Save map into a texture </br>
+
+- 2.1 Compute the scale factor for the Minimap.</br>
+```
+     scaleFactor = minimapSiz / emapSize
+```
+- 2.2 Create a RGB surface</br>
+Use:
+```
+SDL_CreateRGBSurface()
+```
+The size of the surface is the size of the minimap
+
+- 2.3 Create a renderer using the surface</br>
+```
+SDL_CreateSoftwareRenderer()
+```
+- 2.4 Read the renderer pixels </br>
+Use:
+```
+SDL_RenderReadPixels()
+```
+- 2.5 Create a texture from the surface </br>
+Use
+```
+SDL_CreateTextureFromSurface()
+```
+Your code after this todo should look like this 
+![Todo 2](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo2.png)
 
 ### Todo 3
-Draw the map
-Create the minimap in the scene
+- Draw the map
+Use your game blit function, you have to use the texture created in the Todo 2
+
+
+Your code after this todo should look like this 
+![Todo 3](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo3.png)
+
+And the game should look like this
+![Todo 3 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo3_done.png)
 
 ### Todo 4
-Draw all entities in the minimap
-Uncomment the bonus code
+- Draw all entities in the minimap
+The minimap has a list of pointers to entity, all the entities that you want to be showed in the minimap has to be added to this list
+To draw the entities we blit quads, so we don´t have to load more textures 
+
+Your code after this todo should look like this 
+![Todo 4](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo4.png)
+
+And the game should look like this
+![Todo 4 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo4_done.png)
 
 ### Todo 5
-Draw the camera rect
+- Draw the camera rect
+The player will want to know were he is, to accomplish this we draw another quad in the camera position and with the camera size, but we don´t fill the rect. If we fill the rect the player won´t be able to see the minimap!
 
-### Jekyll Themes
+Your code after this todo should look like this 
+![Todo 5](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo5.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OscarHernandezG/MinimapTestbed/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+And the game should look like this
+![Todo 5 done](https://github.com/OscarHernandezG/MinimapTestbed/blob/master/docs/images/todo5_done.png)
 
-### Support or Contact
+### Extra Todo
+- Implement a Fow of War system to make the minimap more interesting
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Future
+As said in [this](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897) article, minimaps might be going to disapear. In many recent videogames the minimap is gone, and it dosen't feel like is missing.
+
+
+## References
+[Minimaps](https://en.wikipedia.org/wiki/Mini-map)
+[Minimaps might be going away](https://kotaku.com/video-game-mini-maps-might-finally-be-going-away-1820011897)
